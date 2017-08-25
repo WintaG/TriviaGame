@@ -1,35 +1,42 @@
 (function() {
   const myQuestions = [
     {
-      question: "Who is the strongest?",
+      question: "The path of totality for the August 21st solar eclipse will begin in ..?.. and end in ..?...",
       answers: {
-        a: "Superman",
-        b: "The Terminator",
-        c: "Waluigi, obviously"
+        a: "Washington, North Carolina",
+        b: "Oregon, South Carolina",
+        c: "Oregon, North Carolina"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Steve Bannon was fired from his job as White House chief strategist and will return to being the head of ..?...",
+      answers: {
+        a: "Fox News",
+        b: "The Drudge Report",
+        c: "Breitbart News"
       },
       correctAnswer: "c"
     },
     {
-      question: "What is the best site ever created?",
+      question: "Comedian, actor, and philanthropist Jerry Lewis, who raised billions for helping those suffering from ..?.., died at his home in Las Vegas at age 91.",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
+        a: "ALS",
+        b: "AIDS",
+        c: "muscular dystrophy"
       },
       correctAnswer: "c"
     },
     {
-      question: "Where is Waldo really?",
+      question: "Legendary comedian and civil rights activist ..?.., who went on dozens of hunger strikes to promote social justice, died at age 84.",
       answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
+        a: "Dick Gregory",
+        b: "Redd Foxx",
+        c: "Richard Pryor"
       },
-      correctAnswer: "d"
-    }
-  ];
-
+      correctAnswer: "a"
+    },
+    ];
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
